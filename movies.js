@@ -6,6 +6,8 @@
 //     }
 // }
 
+// this app still should validate that there is a value for movie name. it is also still ugly css wise and my flexbox is bad. 
+
 $('#submit').on('click', () => {
     let movieName = $('#movie-name');
     let movieRating = $('#movie-rating');
